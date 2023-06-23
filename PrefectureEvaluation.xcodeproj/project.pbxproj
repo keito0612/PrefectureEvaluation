@@ -14,6 +14,19 @@
 		3549027A2A442844007CF74D /* PrefectureEvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902792A442844007CF74D /* PrefectureEvaluationTests.swift */; };
 		354902842A442844007CF74D /* PrefectureEvaluationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902832A442844007CF74D /* PrefectureEvaluationUITests.swift */; };
 		354902862A442844007CF74D /* PrefectureEvaluationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902852A442844007CF74D /* PrefectureEvaluationUITestsLaunchTests.swift */; };
+		354902962A442C93007CF74D /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902932A442C93007CF74D /* Spot.swift */; };
+		354902972A442C93007CF74D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902942A442C93007CF74D /* Review.swift */; };
+		354902982A442C93007CF74D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902952A442C93007CF74D /* User.swift */; };
+		354902A12A442CB6007CF74D /* ErrorDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549029A2A442CB6007CF74D /* ErrorDialogView.swift */; };
+		354902A22A442CB6007CF74D /* MapViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549029C2A442CB6007CF74D /* MapViewPage.swift */; };
+		354902A32A442CB6007CF74D /* SerchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549029D2A442CB6007CF74D /* SerchView.swift */; };
+		354902A42A442CB6007CF74D /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549029E2A442CB6007CF74D /* PlaceAnnotationView.swift */; };
+		354902A82A442D58007CF74D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902A72A442D58007CF74D /* MapViewModel.swift */; };
+		354902AA2A442EB4007CF74D /* RadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902A92A442EB4007CF74D /* RadarChart.swift */; };
+		354902AD2A443075007CF74D /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 354902AC2A443075007CF74D /* DGCharts */; };
+		354902B12A443401007CF74D /* ReViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B02A443401007CF74D /* ReViewSheet.swift */; };
+		354902B32A443EC9007CF74D /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B22A443EC9007CF74D /* Prefecture.swift */; };
+		354902B52A44955C007CF74D /*  GlassBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B42A44955C007CF74D /*  GlassBackGround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,18 @@
 		3549027F2A442844007CF74D /* PrefectureEvaluationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrefectureEvaluationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		354902832A442844007CF74D /* PrefectureEvaluationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureEvaluationUITests.swift; sourceTree = "<group>"; };
 		354902852A442844007CF74D /* PrefectureEvaluationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureEvaluationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		354902932A442C93007CF74D /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		354902942A442C93007CF74D /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		354902952A442C93007CF74D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3549029A2A442CB6007CF74D /* ErrorDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDialogView.swift; sourceTree = "<group>"; };
+		3549029C2A442CB6007CF74D /* MapViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewPage.swift; sourceTree = "<group>"; };
+		3549029D2A442CB6007CF74D /* SerchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerchView.swift; sourceTree = "<group>"; };
+		3549029E2A442CB6007CF74D /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		354902A72A442D58007CF74D /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		354902A92A442EB4007CF74D /* RadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadarChart.swift; path = ../../../../RadarChart.swift; sourceTree = "<group>"; };
+		354902B02A443401007CF74D /* ReViewSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReViewSheet.swift; path = ../../../../ReViewSheet.swift; sourceTree = "<group>"; };
+		354902B22A443EC9007CF74D /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
+		354902B42A44955C007CF74D /*  GlassBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GlassBackGround.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354902AD2A443075007CF74D /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +120,9 @@
 		354902672A442842007CF74D /* PrefectureEvaluation */ = {
 			isa = PBXGroup;
 			children = (
+				354902A62A442D58007CF74D /* viewModel */,
+				354902992A442CB6007CF74D /* view */,
+				354902922A442C93007CF74D /* model */,
 				354902682A442842007CF74D /* PrefectureEvaluationApp.swift */,
 				3549026A2A442842007CF74D /* ContentView.swift */,
 				3549026C2A442844007CF74D /* Assets.xcassets */,
@@ -127,6 +156,58 @@
 			path = PrefectureEvaluationUITests;
 			sourceTree = "<group>";
 		};
+		354902922A442C93007CF74D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				354902932A442C93007CF74D /* Spot.swift */,
+				354902942A442C93007CF74D /* Review.swift */,
+				354902952A442C93007CF74D /* User.swift */,
+				354902B22A443EC9007CF74D /* Prefecture.swift */,
+			);
+			name = model;
+			path = "../../../.Trash/PrefectureEvaluation-App/PrefectureEvaluation-App/model";
+			sourceTree = "<group>";
+		};
+		354902992A442CB6007CF74D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3549029A2A442CB6007CF74D /* ErrorDialogView.swift */,
+				3549029B2A442CB6007CF74D /* Page */,
+				3549029D2A442CB6007CF74D /* SerchView.swift */,
+				3549029E2A442CB6007CF74D /* PlaceAnnotationView.swift */,
+				3549029F2A442CB6007CF74D /* Sheet */,
+				354902A92A442EB4007CF74D /* RadarChart.swift */,
+				354902B42A44955C007CF74D /*  GlassBackGround.swift */,
+			);
+			name = view;
+			path = "../../../.Trash/PrefectureEvaluation-App/PrefectureEvaluation-App/view";
+			sourceTree = "<group>";
+		};
+		3549029B2A442CB6007CF74D /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				3549029C2A442CB6007CF74D /* MapViewPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		3549029F2A442CB6007CF74D /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				354902B02A443401007CF74D /* ReViewSheet.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		354902A62A442D58007CF74D /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				354902A72A442D58007CF74D /* MapViewModel.swift */,
+			);
+			name = viewModel;
+			path = "../../../.Trash/PrefectureEvaluation-App/PrefectureEvaluation-App/viewModel";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +224,9 @@
 			dependencies = (
 			);
 			name = PrefectureEvaluation;
+			packageProductDependencies = (
+				354902AC2A443075007CF74D /* DGCharts */,
+			);
 			productName = PrefectureEvaluation;
 			productReference = 354902652A442842007CF74D /* PrefectureEvaluation.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +299,9 @@
 				Base,
 			);
 			mainGroup = 3549025C2A442842007CF74D;
+			packageReferences = (
+				354902AB2A443075007CF74D /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 354902662A442842007CF74D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +345,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3549026B2A442842007CF74D /* ContentView.swift in Sources */,
+				354902A22A442CB6007CF74D /* MapViewPage.swift in Sources */,
+				354902A42A442CB6007CF74D /* PlaceAnnotationView.swift in Sources */,
+				354902A32A442CB6007CF74D /* SerchView.swift in Sources */,
+				354902972A442C93007CF74D /* Review.swift in Sources */,
+				354902962A442C93007CF74D /* Spot.swift in Sources */,
+				354902A82A442D58007CF74D /* MapViewModel.swift in Sources */,
+				354902B12A443401007CF74D /* ReViewSheet.swift in Sources */,
+				354902982A442C93007CF74D /* User.swift in Sources */,
 				354902692A442842007CF74D /* PrefectureEvaluationApp.swift in Sources */,
+				354902B32A443EC9007CF74D /* Prefecture.swift in Sources */,
+				354902B52A44955C007CF74D /*  GlassBackGround.swift in Sources */,
+				354902A12A442CB6007CF74D /* ErrorDialogView.swift in Sources */,
+				354902AA2A442EB4007CF74D /* RadarChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +682,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		354902AB2A443075007CF74D /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		354902AC2A443075007CF74D /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 354902AB2A443075007CF74D /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3549025D2A442842007CF74D /* Project object */;
 }
