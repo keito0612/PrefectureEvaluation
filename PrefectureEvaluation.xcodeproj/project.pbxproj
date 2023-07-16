@@ -27,6 +27,8 @@
 		354902B12A443401007CF74D /* ReViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B02A443401007CF74D /* ReViewSheet.swift */; };
 		354902B32A443EC9007CF74D /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B22A443EC9007CF74D /* Prefecture.swift */; };
 		354902B52A44955C007CF74D /*  GlassBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B42A44955C007CF74D /*  GlassBackGround.swift */; };
+		354902B72A555038007CF74D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B62A555038007CF74D /* City.swift */; };
+		354902BA2A5E9C21007CF74D /* CityReviewViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354902B92A5E9C21007CF74D /* CityReviewViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		354902B02A443401007CF74D /* ReViewSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReViewSheet.swift; path = ../../../../ReViewSheet.swift; sourceTree = "<group>"; };
 		354902B22A443EC9007CF74D /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
 		354902B42A44955C007CF74D /*  GlassBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GlassBackGround.swift"; sourceTree = "<group>"; };
+		354902B62A555038007CF74D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = City.swift; path = ../../../../City.swift; sourceTree = "<group>"; };
+		354902B92A5E9C21007CF74D /* CityReviewViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityReviewViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,7 @@
 				354902942A442C93007CF74D /* Review.swift */,
 				354902952A442C93007CF74D /* User.swift */,
 				354902B22A443EC9007CF74D /* Prefecture.swift */,
+				354902B62A555038007CF74D /* City.swift */,
 			);
 			name = model;
 			path = "../../../.Trash/PrefectureEvaluation-App/PrefectureEvaluation-App/model";
@@ -187,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				3549029C2A442CB6007CF74D /* MapViewPage.swift */,
+				354902B92A5E9C21007CF74D /* CityReviewViewPage.swift */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -351,10 +357,12 @@
 				354902972A442C93007CF74D /* Review.swift in Sources */,
 				354902962A442C93007CF74D /* Spot.swift in Sources */,
 				354902A82A442D58007CF74D /* MapViewModel.swift in Sources */,
+				354902BA2A5E9C21007CF74D /* CityReviewViewPage.swift in Sources */,
 				354902B12A443401007CF74D /* ReViewSheet.swift in Sources */,
 				354902982A442C93007CF74D /* User.swift in Sources */,
 				354902692A442842007CF74D /* PrefectureEvaluationApp.swift in Sources */,
 				354902B32A443EC9007CF74D /* Prefecture.swift in Sources */,
+				354902B72A555038007CF74D /* City.swift in Sources */,
 				354902B52A44955C007CF74D /*  GlassBackGround.swift in Sources */,
 				354902A12A442CB6007CF74D /* ErrorDialogView.swift in Sources */,
 				354902AA2A442EB4007CF74D /* RadarChart.swift in Sources */,
